@@ -9,19 +9,12 @@ cookie_ai/
 ├── app.py              # Основной бот: детекция + клики
 ├── train.py            # Обучение YOLOv8
 ├── screener.py         # Сбор датасета (скриншоты)
-├── crop_template.py    # Вырезка эталонов объектов
 ├── autolabel.py        # Авторазметка по эталонам
 ├── split_dataset.py    # Разбивка train/val (80/20)
 ├── data.yaml           # Конфиг датасета для YOLO
 ├── class.txt           # Список классов
 ├── requirements.txt    # Зависимости
 ├── yolov8n.pt          # Базовая модель YOLOv8n (pre-trained)
-├── screenshorts/       # Исходные скриншоты для разметки
-├── images/             # Картинки датасета (train/val)
-├── labels/             # Разметка YOLO (train/val)
-├── preview/            # Превью авторазметки
-├── templates/          # Эталоны объектов для авторазметки
-└── runs/               # Результаты обучения (gitignore)
 ```
 
 ## Быстрый старт
